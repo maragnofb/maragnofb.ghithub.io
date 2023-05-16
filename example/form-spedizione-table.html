@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form spedizione</title>
+</head>
+<body>
+<table border="0">
+    
+<form id="delivery" autocomplete="on">
+    <tr>
+        <th align="left">Campo</th>
+        <th align="left">Input</th>
+    </tr>
+    <tr>
+        <td>
+            <label for="name">Name</label>
+        </td>
+        <td>
+            <input id="name" type="text" name="name" placeholder="Name" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="lastname">Last Name</label>
+        </td>
+        <td>
+            <input id="lastname" type="text" name="lastname" placeholder="Last name" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="address">Address</label>
+        </td>
+        <td>
+            <input id="address" type="text" name="address" placeholder="Address">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="po">po</label>
+        </td>
+        <td>
+            <input id="po" type="number" name="po">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="cap">C.A.P.</label>
+        </td>
+        <td>
+            <input id="cap" type="number" name="cap" placeholder="00000">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="city">City</label>
+        </td>
+        <td>
+            <input id="city" type="text" name="city" placeholder="City">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="nation">Nation</label>
+        </td>
+        <td>
+            <input id="nation" type="text" name="nation" placeholder="Italy">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="county">County</label>
+        </td>
+        <td>
+            <select id="county" name="county">
+                <option value="MI">Milano</option>
+                <option value="RM">Roma</option>
+                <option value="TO">Torino</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="phone">Telephone</label>
+        </td>
+        <td>
+            <input id="phone" type="tel" name="nation" placeholder="##########">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="email">email</label>
+        </td>
+        <td>
+            <input id="email" type="email" name="email" placeholder="email" required>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="note">Note</label>
+        </td>
+        <td>
+            <textarea id="note" cols="30" rows="10" placeholder="Note"></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="left">
+            <input type="submit" value="submit">
+        </td>
+    </tr>
+
+</form>
+
+</table>
+</body>
+</html>
